@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{049DFF1E-BC0F-4473-A727-0226FEFD36FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{AD171140-864F-4E41-AC2D-EA792A1C8216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{E2834AAB-AACE-4254-B988-4290DA18CD98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{4432C477-5CCC-4342-AC59-979E2794B660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAL", "BAL\BAL.csproj", "{2D480A17-44AA-4633-8721-76B3612C9F0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{123673CA-96C9-4151-B87E-068B4EF6201C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientLib", "ClientLib\ClientLib.csproj", "{159B5830-4011-425A-988A-392C4F6855CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTestProject", "SeleniumTestProject\SeleniumTestProject.csproj", "{03DCE972-CF48-4E13-A739-CDA6819C5979}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{049DFF1E-BC0F-4473-A727-0226FEFD36FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049DFF1E-BC0F-4473-A727-0226FEFD36FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{049DFF1E-BC0F-4473-A727-0226FEFD36FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{049DFF1E-BC0F-4473-A727-0226FEFD36FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD171140-864F-4E41-AC2D-EA792A1C8216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD171140-864F-4E41-AC2D-EA792A1C8216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD171140-864F-4E41-AC2D-EA792A1C8216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD171140-864F-4E41-AC2D-EA792A1C8216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2834AAB-AACE-4254-B988-4290DA18CD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2834AAB-AACE-4254-B988-4290DA18CD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2834AAB-AACE-4254-B988-4290DA18CD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2834AAB-AACE-4254-B988-4290DA18CD98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4432C477-5CCC-4342-AC59-979E2794B660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4432C477-5CCC-4342-AC59-979E2794B660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4432C477-5CCC-4342-AC59-979E2794B660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4432C477-5CCC-4342-AC59-979E2794B660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D480A17-44AA-4633-8721-76B3612C9F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D480A17-44AA-4633-8721-76B3612C9F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D480A17-44AA-4633-8721-76B3612C9F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D480A17-44AA-4633-8721-76B3612C9F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{123673CA-96C9-4151-B87E-068B4EF6201C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{123673CA-96C9-4151-B87E-068B4EF6201C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{123673CA-96C9-4151-B87E-068B4EF6201C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{123673CA-96C9-4151-B87E-068B4EF6201C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{159B5830-4011-425A-988A-392C4F6855CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159B5830-4011-425A-988A-392C4F6855CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159B5830-4011-425A-988A-392C4F6855CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159B5830-4011-425A-988A-392C4F6855CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03DCE972-CF48-4E13-A739-CDA6819C5979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03DCE972-CF48-4E13-A739-CDA6819C5979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03DCE972-CF48-4E13-A739-CDA6819C5979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03DCE972-CF48-4E13-A739-CDA6819C5979}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ninjasinpyjamas.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ConsoleApp\\ConsoleApp.csproj
+		SccProjectName1 = ConsoleApp
+		SccLocalPath1 = ConsoleApp
+		SccProjectUniqueName2 = DAL\\DAL.csproj
+		SccProjectName2 = DAL
+		SccLocalPath2 = DAL
+		SccProjectUniqueName3 = Domain\\Domain.csproj
+		SccProjectName3 = Domain
+		SccLocalPath3 = Domain
+		SccProjectUniqueName4 = Interfaces\\Interfaces.csproj
+		SccProjectName4 = Interfaces
+		SccLocalPath4 = Interfaces
+		SccProjectUniqueName5 = Web\\Web.csproj
+		SccProjectName5 = Web
+		SccLocalPath5 = Web
+		SccProjectUniqueName6 = BAL\\BAL.csproj
+		SccProjectName6 = BAL
+		SccLocalPath6 = BAL
+		SccProjectUniqueName7 = ClientLib\\ClientLib.csproj
+		SccProjectName7 = ClientLib
+		SccLocalPath7 = ClientLib
+		SccProjectUniqueName8 = SeleniumTestProject\\SeleniumTestProject.csproj
+		SccProjectName8 = SeleniumTestProject
+		SccLocalPath8 = SeleniumTestProject
+	EndGlobalSection
+EndGlobal

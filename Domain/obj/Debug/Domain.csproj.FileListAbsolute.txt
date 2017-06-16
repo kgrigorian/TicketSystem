@@ -1,0 +1,9 @@
+C:\Users\Dr.Cymb\Desktop\VR2ProjectFinal\TicketSystem\Domain\bin\Debug\Domain.dll
+C:\Users\Dr.Cymb\Desktop\VR2ProjectFinal\TicketSystem\Domain\bin\Debug\Domain.pdb
+C:\Users\Dr.Cymb\Desktop\VR2ProjectFinal\TicketSystem\Domain\obj\Debug\Domain.dll
+C:\Users\Dr.Cymb\Desktop\VR2ProjectFinal\TicketSystem\Domain\obj\Debug\Domain.pdb
+C:\Users\Dr.Cymb\Desktop\VR2ProjectFinal\TicketSystem\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\Dr.Cymb\Desktop\TicketSystem\TicketSystem\Domain\bin\Debug\Domain.dll
+C:\Users\Dr.Cymb\Desktop\TicketSystem\TicketSystem\Domain\bin\Debug\Domain.pdb
+C:\Users\Dr.Cymb\Desktop\TicketSystem\TicketSystem\Domain\obj\Debug\Domain.dll
+C:\Users\Dr.Cymb\Desktop\TicketSystem\TicketSystem\Domain\obj\Debug\Domain.pdb

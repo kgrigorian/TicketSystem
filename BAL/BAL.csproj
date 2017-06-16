@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2D480A17-44AA-4633-8721-76B3612C9F0C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BAL</RootNamespace>
+    <AssemblyName>BAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="DTOs\TicketDTO.cs" />
+    <Compile Include="DTOs\ProductDTO.cs" />
+    <Compile Include="DTOs\RolePermissionDTO.cs" />
+    <Compile Include="DTOs\ReplyDTO.cs" />
+    <Compile Include="DTOs\TicketHistoryDTO.cs" />
+    <Compile Include="DTOs\UserDTO.cs" />
+    <Compile Include="Factories\IFactory.cs" />
+    <Compile Include="Factories\RolePermissionFactory\IRolePermissionFactory.cs" />
+    <Compile Include="Factories\RolePermissionFactory\RolePermissionFactory.cs" />
+    <Compile Include="Factories\TicketFactory\ITicketFactory.cs" />
+    <Compile Include="Factories\TicketFactory\TicketFactory.cs" />
+    <Compile Include="Factories\ProductFactory\IProductFactory.cs" />
+    <Compile Include="Factories\ProductFactory\ProductFactory.cs" />
+    <Compile Include="Factories\ReplyFactory\IReplyFactory.cs" />
+    <Compile Include="Factories\ReplyFactory\ReplyFactory.cs" />
+    <Compile Include="Factories\TicketHistoryFactory\ITicketHistoryFactory.cs" />
+    <Compile Include="Factories\TicketHistoryFactory\TicketHistoryFactory.cs" />
+    <Compile Include="Factories\UserFactory\IUserFactory.cs" />
+    <Compile Include="Factories\UserFactory\UserFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\IService.cs" />
+    <Compile Include="Services\TicketService\ITicketService.cs" />
+    <Compile Include="Services\TicketService\TicketService.cs" />
+    <Compile Include="Services\ProductService\IProductService.cs" />
+    <Compile Include="Services\ProductService\ProductService.cs" />
+    <Compile Include="Services\RolePermissionService\IRolePermissionService.cs" />
+    <Compile Include="Services\RolePermissionService\RolePermissionService.cs" />
+    <Compile Include="Services\ReplyService\IReplyService.cs" />
+    <Compile Include="Services\ReplyService\ReplyService.cs" />
+    <Compile Include="Services\TicketHistoryService\ITicketHistoryService.cs" />
+    <Compile Include="Services\TicketHistoryService\TicketHistoryService.cs" />
+    <Compile Include="Services\UserService\IUserService.cs" />
+    <Compile Include="Services\ServiceGeneric.cs" />
+    <Compile Include="Services\UserService\UserService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{e2834aab-aace-4254-b988-4290da18cd98}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{AD171140-864F-4E41-AC2D-EA792A1C8216}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj">
+      <Project>{4432c477-5ccc-4342-ac59-979e2794b660}</Project>
+      <Name>Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

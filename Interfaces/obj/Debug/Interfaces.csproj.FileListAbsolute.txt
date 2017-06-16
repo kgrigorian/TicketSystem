@@ -1,0 +1,14 @@
+C:\Users\Dr.Cymb\Desktop\VR2ProjectFinal\TicketSystem\Interfaces\bin\Debug\Interfaces.dll
+C:\Users\Dr.Cymb\Desktop\VR2ProjectFinal\TicketSystem\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\Dr.Cymb\Desktop\VR2ProjectFinal\TicketSystem\Interfaces\bin\Debug\Domain.dll
+C:\Users\Dr.Cymb\Desktop\VR2ProjectFinal\TicketSystem\Interfaces\bin\Debug\Domain.pdb
+C:\Users\Dr.Cymb\Desktop\VR2ProjectFinal\TicketSystem\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Dr.Cymb\Desktop\VR2ProjectFinal\TicketSystem\Interfaces\obj\Debug\Interfaces.dll
+C:\Users\Dr.Cymb\Desktop\VR2ProjectFinal\TicketSystem\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\Dr.Cymb\Desktop\TicketSystem\TicketSystem\Interfaces\bin\Debug\Interfaces.dll
+C:\Users\Dr.Cymb\Desktop\TicketSystem\TicketSystem\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\Dr.Cymb\Desktop\TicketSystem\TicketSystem\Interfaces\bin\Debug\Domain.dll
+C:\Users\Dr.Cymb\Desktop\TicketSystem\TicketSystem\Interfaces\bin\Debug\Domain.pdb
+C:\Users\Dr.Cymb\Desktop\TicketSystem\TicketSystem\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Dr.Cymb\Desktop\TicketSystem\TicketSystem\Interfaces\obj\Debug\Interfaces.dll
+C:\Users\Dr.Cymb\Desktop\TicketSystem\TicketSystem\Interfaces\obj\Debug\Interfaces.pdb
